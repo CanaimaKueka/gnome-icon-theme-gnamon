@@ -2,5 +2,6 @@ gnome-icon-theme-gnamon (1.0) unstable; urgency=low
 
   * Versión inicial basada en Faenza y Faience.
   * Cambiando versionamiento a formato nativo
+  * [85249a3] Personalizando el icono de softwarecenter
 
  -- Erick Birbe <erickcion@gmail.com>  Tue, 23 Apr 2013 17:01:11 -0430
