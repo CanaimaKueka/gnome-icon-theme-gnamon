@@ -2,8 +2,11 @@ Source: gnome-icon-theme-gnamon
 Section: gnome
 Priority: extra
 Maintainer: Luis Alejandro Martínez Faneyth <luis@huntingbears.com.ve>
-Build-Depends: debhelper (>= 7)
-Standards-Version: 3.9.4
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.3
+Homepage: http://canaima.softwarelibre.gob.ve/
+Vcs-Git: git://gitorious.org/canaima-gnu-linux/gnome-icon-theme-gnamon.git
+Vcs-Browser: http://gitorious.org/canaima-gnu-linux/gnome-icon-theme-gnamon/trees/master
 
 Package: gnome-icon-theme-gnamon
 Architecture: all
