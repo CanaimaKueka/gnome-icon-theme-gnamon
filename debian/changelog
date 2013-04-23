@@ -1,5 +1,6 @@
-gnome-icon-theme-gnamon (1.0-1) unstable; urgency=low
+gnome-icon-theme-gnamon (1.0) unstable; urgency=low
 
+  * [a841ce5] Corrigiendo estándares.
   * Versión inicial basada en Faenza y Faience.
 
  -- Luis Alejandro Martínez Faneyth <luis@huntingbears.com.ve>  Fri, 11 Jan 2013 21:05:52 -0430
