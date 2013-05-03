@@ -1,3 +1,9 @@
+gnome-icon-theme-gnamon (1.0+1) unstable; urgency=low
+
+  * [a8ace44] Corrigiendo errores de instlacion del .deb
+
+ -- Erick Birbe <erickcion@gmail.com>  Fri, 03 May 2013 09:59:45 -0430
+
 gnome-icon-theme-gnamon (1.0) unstable; urgency=low
 
   * Versión inicial basada en Faenza y Faience.
