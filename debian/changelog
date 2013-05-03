@@ -1,3 +1,9 @@
+gnome-icon-theme-gnamon (1.0+2) unstable; urgency=low
+
+  * [21d64f8] Añadiendo pre-dependencia con gnome-icon-theme
+
+ -- Erick Birbe <erickcion@gmail.com>  Fri, 03 May 2013 13:09:25 -0430
+
 gnome-icon-theme-gnamon (1.0+1) unstable; urgency=low
 
   * [a8ace44] Corrigiendo errores de instlacion del .deb
