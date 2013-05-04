@@ -10,6 +10,7 @@ Vcs-Browser: http://gitorious.org/canaima-gnu-linux/gnome-icon-theme-gnamon/tree
 
 Package: gnome-icon-theme-gnamon
 Architecture: all
-Depends: ${shlibs:Depends}, ${misc:Depends}, hicolor-icon-theme, libgtk-3-bin, librsvg2-common
+Pre-Depends: gnome-icon-theme
+Depends: ${misc:Depends}, hicolor-icon-theme, libgtk-3-bin, librsvg2-common
 Description: Conjunto de íconos basados en Faenza y Faience
   Conjunto de íconos basados en Faenza y Faience

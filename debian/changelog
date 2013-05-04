@@ -1,6 +1,20 @@
+gnome-icon-theme-gnamon (1.0+2) unstable; urgency=low
+
+  * [21d64f8] Añadiendo pre-dependencia con gnome-icon-theme
+
+ -- Erick Birbe <erickcion@gmail.com>  Fri, 03 May 2013 13:09:25 -0430
+
+gnome-icon-theme-gnamon (1.0+1) unstable; urgency=low
+
+  * [a8ace44] Corrigiendo errores de instlacion del .deb
+
+ -- Erick Birbe <erickcion@gmail.com>  Fri, 03 May 2013 09:59:45 -0430
+
 gnome-icon-theme-gnamon (1.0) unstable; urgency=low
 
   * [a841ce5] Corrigiendo estándares.
   * Versión inicial basada en Faenza y Faience.
+  * Cambiando versionamiento a formato nativo
+  * [85249a3] Personalizando el icono de softwarecenter
 
- -- Luis Alejandro Martínez Faneyth <luis@huntingbears.com.ve>  Fri, 11 Jan 2013 21:05:52 -0430
+ -- Erick Birbe <erickcion@gmail.com>  Tue, 23 Apr 2013 17:01:11 -0430

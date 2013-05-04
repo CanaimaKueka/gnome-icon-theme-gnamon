@@ -38,14 +38,14 @@ case ${1} in
 	configure|'')
 
 		ADVERTENCIA "Estableciendo cursores de Canaima por defecto ..."
-		update-alternatives --install /usr/share/icons/default/index.theme x-cursor-theme /usr/share/icons/GnamonCur/cursor.theme 90
+		update-alternatives --force --install /usr/share/icons/default/index.theme x-cursor-theme /usr/share/icons/GnamonCur/cursor.theme 90
 
 		ADVERTENCIA "Estableciendo iconos de Canaima por defecto ..."
 		SIZES=$( ls /usr/share/icons/Gnamon/places | sed "s|scalable||g" )
-		COMMAND="update-alternatives --install /usr/share/icons/Gnamon/places/scalable/start-here.svg start-here.svg /usr/share/icons/Gnamon/places/scalable/canaima-logo.svg 90"
+		COMMAND="update-alternatives --force --install /usr/share/icons/Gnamon/places/scalable/start-here.svg start-here.svg /usr/share/icons/Gnamon/places/scalable/canaima-logo.svg 90"
 
 		for S in $SIZES; do
-			COMMAND="$COMMAND --slave /usr/share/icons/Gnamon/places/${S}/start-here.png start-here-${S}.png /usr/share/icons/Gnamon/places/${s}/canaima-logo.png"
+			COMMAND="$COMMAND --slave /usr/share/icons/Gnamon/places/${S}/start-here.png start-here-${S}.png /usr/share/icons/Gnamon/places/${S}/canaima-logo.png"
 		done
 
 		eval "${COMMAND}"
