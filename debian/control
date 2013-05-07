@@ -12,5 +12,5 @@ Package: gnome-icon-theme-gnamon
 Architecture: all
 Pre-Depends: gnome-icon-theme
 Depends: ${misc:Depends}, hicolor-icon-theme, libgtk-3-bin, librsvg2-common
-Description: Conjunto de íconos basados en Faenza y Faience
-  Conjunto de íconos basados en Faenza y Faience
+Description: Conjunto de íconos para el tema Gnamon
+  Conjunto de íconos basados en Faenza y Faience.
