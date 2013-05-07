@@ -1,3 +1,9 @@
+gnome-icon-theme-gnamon (1.0+3) unstable; urgency=low
+
+  * [545ee51] Corrigiendo error de lintian.
+
+ -- Luis Alejandro Martínez Faneyth <luis@huntingbears.com.ve>  Mon, 06 May 2013 21:24:44 -0430
+
 gnome-icon-theme-gnamon (1.0+2) unstable; urgency=low
 
   * [21d64f8] Añadiendo pre-dependencia con gnome-icon-theme
